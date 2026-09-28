@@ -59,14 +59,56 @@ The payoff is zero hallucinations, zero dropped appointments, and about ninety p
 
 ### What I Build Today
 
-My cleaning business is my living test lab. I document my builds as public experiments where every failure, fix, and benchmark is on record.
+My cleaning business is my living test lab. I document my builds as public experiments where every failure, fix, and benchmark is on record. Each experiment follows the same process: problem, hypothesis, experiment, failure, iteration, evidence, result, and lesson.
 
-- **Found the bug, fixed the stack**: Tracked down why ROCm crashed on AMD RX 6700 XT gfx1031 silicon, bypassed HSA overrides natively, and got my fix merged upstream in llama.cpp. [Case Study](https://robbyaliasaakbar.github.io/exp008.html)
-- **Mass CV screening pipeline**: Cut candidate PDF evaluation from thirty minutes of manual skimming down to under five seconds without relying on fragile in system prompts. [Case Study](https://robbyaliasaakbar.github.io/exp007.html)
-- **Universal auth backend**: Built a shared authentication service with PHP, SQLite, and Docker, reusing one login gateway across multiple live apps without rewriting boilerplate. [Case Study](https://robbyaliasaakbar.github.io/exp011.html)
-- **Internal MCP agent integration**: Connected local models directly into my own custom web applications via internal MCP tools, removing manual data entry entirely. [Case Study](https://robbyaliasaakbar.github.io/exp015.html)
-- **Enterprise grade JobTracker**: Rebuilt a static tracking tool into a production system running React, Express, PostgreSQL, and Caddy on a private home server without cloud VPS bills. [Case Study](https://robbyaliasaakbar.github.io/exp016.html)
-- **Full stack business frontend**: Shipped an entire services website with dynamic sliders, smooth animations, and complete business logic using pure local AI assistance. [Case Study](https://robbyaliasaakbar.github.io/exp005.html)
+<p>
+  <img src="./assets/badges/status_stable.svg" alt="Status stable" height="22"> documented and holding up
+  &nbsp;&nbsp; <img src="./assets/badges/status_live.svg" alt="Status live" height="22"> running in production
+  &nbsp;&nbsp; <img src="./assets/badges/status_local.svg" alt="Status local infra" height="22"> running on my own hardware
+</p>
+
+Six flagship builds up front, the other ten in the ledger below.
+
+<p align="center">
+  <a href="https://robbyaliasaakbar.github.io/exp016.html"><img src="./assets/cards/exp016.svg" alt="EXP 016 card, enterprise JobTracker rebuilt on a home server" width="440"></a>
+  <a href="https://robbyaliasaakbar.github.io/exp014.html"><img src="./assets/cards/exp014.svg" alt="EXP 014 card, content tracking web app dashboard" width="440"></a>
+</p>
+<p align="center">
+  <a href="https://robbyaliasaakbar.github.io/exp011.html"><img src="./assets/cards/exp011.svg" alt="EXP 011 card, one auth backend for many frontends" width="440"></a>
+  <a href="https://robbyaliasaakbar.github.io/exp012.html"><img src="./assets/cards/exp012.svg" alt="EXP 012 card, multi user CRM dashboard" width="440"></a>
+</p>
+<p align="center">
+  <a href="https://robbyaliasaakbar.github.io/exp004.html"><img src="./assets/cards/exp004.svg" alt="EXP 004 card, digital employees workflow with 266 nodes" width="440"></a>
+  <a href="https://robbyaliasaakbar.github.io/exp009.html"><img src="./assets/cards/exp009.svg" alt="EXP 009 card, native ROCm gfx1031 benchmark on RX 6700 XT" width="440"></a>
+</p>
+
+### The Experiment Ledger
+
+The other ten experiments, grouped by what they explore. Every entry links to its own case study.
+
+#### LLM Infra
+
+- **EXP 001**: The 35B MoE model runs on an older architecture with 12GB of VRAM. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp001.html)
+- **EXP 002**: Prefill speed on long context inference. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp002.html)
+- **EXP 008**: Found the Bug, Fixed the Stack: ROCm gfx1031 vs Vulkan on RX 6700 XT. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp008.html)
+
+#### Agents & Automation
+
+- **EXP 003**: Automation agent workflow for business research needs. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp003.html)
+- **EXP 007**: From 30 Minutes to 5 Seconds: Automating Mass CV Screening Without In System AI. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp007.html)
+- **EXP 015**: Letting the LLM Into My Own Web App Through an Internal MCP, No Manual Entry. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> <img src="./assets/badges/status_live.svg" alt="Live" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp015.html)
+
+#### Web Apps
+
+- **EXP 005**: Building a Full Feature Services Business Website Using Only Local AI. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> <img src="./assets/badges/status_live.svg" alt="Live" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp005.html)
+- **EXP 006**: Building a Self Contained Invoice System Without a Database. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> <img src="./assets/badges/status_live.svg" alt="Live" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp006.html)
+
+#### Auth & Platform
+
+- **EXP 010**: Building a Production Ready Job Tracker UI With Only a 35B Local Coder, No Framework. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> <img src="./assets/badges/status_live.svg" alt="Live" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp010.html)
+- **EXP 013**: From Technical Test to Live Multi User CV Screening Platform on One Shared Auth Backend. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> <img src="./assets/badges/status_live.svg" alt="Live" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp013.html)
+
+<p><a href="https://robbyaliasaakbar.github.io/experiments-list.html"><b>View all 16 experiments</b> with full evidence, failure logs, and live demos →</a></p>
 
 I treat AI as a draft engine, never the final truth. Plain logic handles the heavy lifting, and the model only touches what actually needs reasoning.
 
@@ -161,25 +203,39 @@ I treat AI as a draft engine, never the final truth. Plain logic handles the hea
 
 ### Field Telemetry
 
+Everything tested on bare metal and backed by real revenue. The streak and the cards right below it read live from my GitHub, the cards under them are field numbers from systems that run daily.
+
 <p align="center">
-  <img src="./assets/badges/prod_nodes.svg" alt="266 Nodes" />
-  <img src="./assets/badges/autopilot.svg" alt="90% Autopilot" />
-  <img src="./assets/badges/workload.svg" alt="9 To 10 Admins Saved" />
-  <img src="./assets/badges/latency.svg" alt="Latency Drop Under 5 Seconds" />
-  <img src="./assets/badges/upstream.svg" alt="Upstream Merged Llama.cpp" />
+  <a href="https://github.com/robbyaliasaakbar"><img src="https://streak-stats.demolab.com/?user=robbyaliasaakbar&hide_border=true&background=0C0C0C&ring=D70000&fire=D70000&currStreakNum=D70000&sideNums=FFFFFF&currStreakLabel=D70000&sideLabels=FFFFFF&dates=9CA3AF&excludeDaysLabel=9CA3AF" alt="GitHub contribution streak of robbyaliasaakbar" width="495"></a>
 </p>
 
 <p align="center">
-  <img src="./assets/badges/exp_pub.svg" alt="16 Public Experiments" />
-  <img src="./assets/badges/exp_vault.svg" alt="211 Experiments Logged" />
-  <img src="./assets/badges/internal_apps.svg" alt="5 Internal Apps Scratch Built" />
-  <img src="./assets/badges/repos_count.svg" alt="11 Production Repos" />
-  <img src="./assets/badges/gpu_tuning.svg" alt="AMD ROCm RX 6700 XT" />
+  <img src="https://github-stats-extended.vercel.app/api?username=robbyaliasaakbar&hide_rank=true&show_icons=true&hide_border=true&bg_color=0C0C0C&title_color=D70000&icon_color=D70000&text_color=FFFFFF&hide=stars,issues,prs,contribs" alt="GitHub stats of robbyaliasaakbar" width="367">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=robbyaliasaakbar&layout=compact&hide_border=true&bg_color=0C0C0C&title_color=D70000&text_color=FFFFFF" alt="Most used languages on GitHub" width="300">
 </p>
 
-<br>
+<p align="center">
+  <img src="./assets/telemetry/tel_nodes.svg" alt="266 production workflow nodes" width="290">
+  <img src="./assets/telemetry/tel_autopilot.svg" alt="90 percent operations on autopilot" width="290">
+  <img src="./assets/telemetry/tel_workload.svg" alt="9 to 10 admin roles saved" width="290">
+</p>
+<p align="center">
+  <img src="./assets/telemetry/tel_latency.svg" alt="Latency drop from 30 minutes to under 5 seconds" width="290">
+  <img src="./assets/telemetry/tel_hallucinations.svg" alt="0.0 percent hallucination rate" width="290">
+  <img src="./assets/telemetry/tel_upstream.svg" alt="Merged upstream in llama.cpp" width="290">
+</p>
+<p align="center">
+  <img src="./assets/telemetry/tel_prefill.svg" alt="580 tokens per second native prefill" width="290">
+  <img src="./assets/telemetry/tel_gpu.svg" alt="AMD RX 6700 XT GPU tuning" width="290">
+  <img src="./assets/telemetry/tel_repos.svg" alt="11 production repos" width="290">
+</p>
+<p align="center">
+  <img src="./assets/telemetry/tel_exppub.svg" alt="16 public experiments" width="290">
+  <img src="./assets/telemetry/tel_expvault.svg" alt="211 experiments logged" width="290">
+  <img src="./assets/telemetry/tel_apps.svg" alt="5 internal apps scratch built" width="290">
+</p>
 
 <div align="center">
-  <p><i>Everything tested on bare metal and backed by real revenue. If you want to talk systems, drop a line.</i></p>
+  <p><i>If you want to talk systems, drop a line.</i></p>
 </div>
 # robbyaliasaakbar
