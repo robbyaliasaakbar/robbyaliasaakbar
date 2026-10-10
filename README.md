@@ -54,7 +54,6 @@ I automated our entire operations using open source tools and local models. Out 
 
 The payoff is zero hallucinations, zero dropped appointments, and about ninety percent of daily operations running on autopilot.
 
-
 ---
 
 ### What I Build Today
@@ -67,7 +66,7 @@ My cleaning business is my living test lab. I document my builds as public exper
   &nbsp;&nbsp; <img src="./assets/badges/status_local.svg" alt="Status local infra" height="22"> running on my own hardware
 </p>
 
-Six flagship builds up front, the other ten in the ledger below.
+Six flagship builds up front, the other eleven in the ledger below.
 
 <p align="center">
   <a href="https://robbyaliasaakbar.github.io/exp016.html"><img src="./assets/cards/exp016.svg" alt="EXP 016 card, enterprise JobTracker rebuilt on a home server" width="440"></a>
@@ -84,7 +83,7 @@ Six flagship builds up front, the other ten in the ledger below.
 
 ### The Experiment Ledger
 
-The other ten experiments, grouped by what they explore. Every entry links to its own case study.
+The other eleven experiments, grouped by what they explore. Every entry links to its own case study.
 
 #### LLM Infra
 
@@ -107,8 +106,9 @@ The other ten experiments, grouped by what they explore. Every entry links to it
 
 - **EXP 010**: Building a Production Ready Job Tracker UI With Only a 35B Local Coder, No Framework. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> <img src="./assets/badges/status_live.svg" alt="Live" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp010.html)
 - **EXP 013**: From Technical Test to Live Multi User CV Screening Platform on One Shared Auth Backend. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> <img src="./assets/badges/status_live.svg" alt="Live" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp013.html)
+- **EXP 017**: Four Apps, One Door, Zero Funnel — Tracing Outages and Moving Auth and Data to Supabase. <img src="./assets/badges/status_stable.svg" alt="Stable" height="18"> <img src="./assets/badges/status_live.svg" alt="Live" height="18"> [Read case study →](https://robbyaliasaakbar.github.io/exp017.html)
 
-<p><a href="https://robbyaliasaakbar.github.io/experiments-list.html"><b>View all 16 experiments</b> with full evidence, failure logs, and live demos →</a></p>
+<p><a href="https://robbyaliasaakbar.github.io/experiments-list.html"><b>View all 17 experiments</b> with full evidence, failure logs, and live demos →</a></p>
 
 I treat AI as a draft engine, never the final truth. Plain logic handles the heavy lifting, and the model only touches what actually needs reasoning.
 
@@ -206,11 +206,11 @@ I treat AI as a draft engine, never the final truth. Plain logic handles the hea
 Everything tested on bare metal and backed by real revenue. The streak and the cards right below it read live from my GitHub, the cards under them are field numbers from systems that run daily.
 
 <p align="center">
-  <a href="https://github.com/robbyaliasaakbar"><img src="https://streak-stats.demolab.com/?user=robbyaliasaakbar&hide_border=true&background=0C0C0C&ring=D70000&fire=D70000&currStreakNum=D70000&sideNums=FFFFFF&currStreakLabel=D70000&sideLabels=FFFFFF&dates=9CA3AF&excludeDaysLabel=9CA3AF" alt="GitHub contribution streak of robbyaliasaakbar" width="495"></a>
+  <a href="https://github.com/robbyaliasaakbar"><img src="https://streak-stats.demolab.com/?user=robbyaliasaakbar&hide_border=true&background=0C0C0C&ring=D70000&fire=D70000&currStreakNum=D70000&sideNums=FFFFFF&currStreakLabel=D70000&sideLabels=FFFFFF&dates=9CA3AF&excludeDaysLabel=9CA3AF&cb=20261011" alt="GitHub contribution streak of robbyaliasaakbar" width="495"></a>
 </p>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=robbyaliasaakbar&hide_rank=true&show_icons=true&hide_border=true&bg_color=0C0C0C&title_color=D70000&icon_color=D70000&text_color=FFFFFF&hide=stars,issues,prs,contribs" alt="GitHub stats of robbyaliasaakbar" width="367">
+  <img src="https://github-readme-stats.vercel.app/api?username=robbyaliasaakbar&show_icons=true&hide_border=true&bg_color=0C0C0C&title_color=D70000&icon_color=D70000&text_color=FFFFFF&hide=stars,issues,prs,contribs&include_all_commits=true&cb=20261011" alt="GitHub stats of robbyaliasaakbar" width="367">
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=robbyaliasaakbar&layout=compact&hide_border=true&bg_color=0C0C0C&title_color=D70000&text_color=FFFFFF" alt="Most used languages on GitHub" width="300">
 </p>
 
@@ -230,7 +230,7 @@ Everything tested on bare metal and backed by real revenue. The streak and the c
   <img src="./assets/telemetry/tel_repos.svg" alt="11 production repos" width="290">
 </p>
 <p align="center">
-  <img src="./assets/telemetry/tel_exppub.svg" alt="16 public experiments" width="290">
+  <img src="./assets/telemetry/tel_exppub.svg" alt="17 public experiments" width="290">
   <img src="./assets/telemetry/tel_expvault.svg" alt="211 experiments logged" width="290">
   <img src="./assets/telemetry/tel_apps.svg" alt="5 internal apps scratch built" width="290">
 </p>
@@ -238,4 +238,3 @@ Everything tested on bare metal and backed by real revenue. The streak and the c
 <div align="center">
   <p><i>If you want to talk systems, drop a line.</i></p>
 </div>
-# robbyaliasaakbar
